@@ -2,29 +2,14 @@ package LCAJava;
 
 import java.util.ArrayList;
 public class LCAJava {
-
-    public static void main(String[] args) {
+    public static void main(String[] args){
         BinaryTree binaryTree = new BinaryTree();
         binaryTree.root = new Node(1);
         binaryTree.root.left = new Node(2);
         binaryTree.root.right = new Node(3);
         binaryTree.root.left.left = new Node(4);
-        binaryTree.root.left.right = new Node(5);
-        binaryTree.root.right.left = new Node(6);
-        binaryTree.root.right.right = new Node(7);
-        binaryTree.root.left.right.left = new Node(8);
-        binaryTree.root.left.right.right = new Node(9);
-        binaryTree.root.right.right.left = new Node(10);
-        binaryTree.root.right.right.right = new Node(11);
-        binaryTree.root.left.right.right.left = new Node(12);
-        binaryTree.root.left.right.right.right = new Node(13);
-
-        System.out.println("LCA of nodes with values 6 and 10 is " + binaryTree.LCA(6, 10)); //should be 3
-        System.out.println("LCA of nodes with values 8 and 9 is " + binaryTree.LCA(8, 9)); //should be 5
-        System.out.println("LCA of nodes with values 7 and 11 is " + binaryTree.LCA(7, 11)); //should be 7
-        System.out.println("LCA of nodes with values 12 and 3 is " + binaryTree.LCA(12, 3)); //should be 1
-
     }
+
 }
 
 //node class
