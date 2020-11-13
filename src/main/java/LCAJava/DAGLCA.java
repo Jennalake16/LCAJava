@@ -9,43 +9,8 @@ public class DAGLCA{
     static ArrayList<NodeForDAG> aVisited, bVisited; // arraylists of the values that have been checked previously
     static ArrayList<Integer> lca = new ArrayList<>(); // arraylist of all the lcas, the highest indexed one is the lca
     public static void main(String[] args){
-        ArrayList<NodeForDAG> DAG1Parents = new ArrayList<>();
-        ArrayList<NodeForDAG> DAG2Parents = new ArrayList<>();
-        ArrayList<NodeForDAG> DAG3Parents = new ArrayList<>();
-        ArrayList<NodeForDAG> DAG4Parents = new ArrayList<>();
-        ArrayList<NodeForDAG> DAG5Parents = new ArrayList<>();
-        ArrayList<NodeForDAG> DAG6Parents = new ArrayList<>();
-        ArrayList<NodeForDAG> DAG7Parents = new ArrayList<>();
-        ArrayList<NodeForDAG> DAG8Parents = new ArrayList<>();
-        ArrayList<NodeForDAG> DAG9Parents = new ArrayList<>();
-
-        NodeForDAG DAG0 = new NodeForDAG(0, null);
-        DAG1Parents.add(DAG0);
-        NodeForDAG DAG1 = new NodeForDAG(1, DAG1Parents);
-        DAG2Parents.add(DAG0);
-        NodeForDAG DAG2 = new NodeForDAG(2, DAG2Parents);
-        DAG3Parents.add(DAG1);
-        DAG3Parents.add(DAG2);
-        NodeForDAG DAG3 = new NodeForDAG(3, DAG3Parents);
-        DAG4Parents.add(DAG1);
-        DAG4Parents.add(DAG2);
-        NodeForDAG DAG4 = new NodeForDAG(4, DAG4Parents);
-        DAG5Parents.add(DAG2);
-        NodeForDAG DAG5 = new NodeForDAG(5, DAG5Parents);
-        DAG6Parents.add(DAG2);
-        NodeForDAG DAG6 = new NodeForDAG(6, DAG6Parents);
-        DAG7Parents.add(DAG6);
-        NodeForDAG DAG7 = new NodeForDAG(7, DAG7Parents);
-        DAG8Parents.add(DAG5);
-        DAG8Parents.add(DAG6);
-        NodeForDAG DAG8 = new NodeForDAG(8, DAG8Parents);
-        DAG9Parents.add(DAG6);
-        DAG9Parents.add(DAG7);
-        NodeForDAG DAG9 = new NodeForDAG(9, DAG9Parents);
-
-        System.out.println("should be  2: " + getLCA(DAG4, DAG5));
-        System.out.println("should be  6: " + getLCA(DAG8, DAG9));
-        System.out.println("should be  0: " + getLCA(DAG1, DAG5));
+        // I wrote the code using an explanation of the algorithm that I found online which helped me a lot
+        // https://jgrapht.org/javadoc-1.4.0/org/jgrapht/alg/lca/NaiveLCAFinder.html
 
     }
 
