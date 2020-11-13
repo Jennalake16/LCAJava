@@ -2,7 +2,7 @@ apply plugin: 'java'
 
 apply plugin: 'application'
 
-mainClassName = 'LCAJava.LCAJava'
+mainClassName = 'LCAJava.DAGLCA'
 
 repositories {
     mavenCentral()

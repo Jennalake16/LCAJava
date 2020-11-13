@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LCAJava.DAGLCATest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-13T20:48:05" hostname="JENNA-LAPPY-TOP" time="0.008">
+  <properties/>
+  <testcase name="test" classname="LCAJava.DAGLCATest" time="0.008"/>
+  <system-out><![CDATA[[2, 2]
+[6, 6]
+[0]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
