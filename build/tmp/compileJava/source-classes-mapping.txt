@@ -1,3 +1,6 @@
+LCAJava/DAGLCA.java
+ LCAJava.DAGLCA
+ LCAJava.NodeForDAG
 LCAJava/LCAJava.java
  LCAJava.BinaryTree
  LCAJava.LCAJava

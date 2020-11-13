@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\LCAJava.jar
 
 
 @rem Execute LCAJava
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LCA_JAVA_OPTS%  -classpath "%CLASSPATH%" LCAJava.LCAJava %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LCA_JAVA_OPTS%  -classpath "%CLASSPATH%" LCAJava.DAGLCA %*
 
 :end
 @rem End local scope for the variables with windows NT shell

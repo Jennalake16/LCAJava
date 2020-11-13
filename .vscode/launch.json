@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "LCAJava.DAGLCA"
+        },
+
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DAGLCA",
+            "request": "launch",
+            "mainClass": "LCAJava.DAGLCA",
+            "projectName": "LCAJava"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

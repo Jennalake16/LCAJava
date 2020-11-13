@@ -1,2 +1,4 @@
 LCAJava/LCAJavaTest.java
  LCAJava.LCAJavaTest
+LCAJava/DAGLCATest.java
+ LCAJava.DAGLCATest
