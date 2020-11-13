@@ -1,6 +1,5 @@
 package LCAJava;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -11,7 +10,6 @@ public class DAGLCA{
     public static void main(String[] args){
         // I wrote the code using an explanation of the algorithm that I found online which helped me a lot
         // https://jgrapht.org/javadoc-1.4.0/org/jgrapht/alg/lca/NaiveLCAFinder.html
-
     }
 
     static int getLCA(NodeForDAG first, NodeForDAG second) {

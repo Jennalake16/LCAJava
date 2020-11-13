@@ -1,9 +1,7 @@
 package LCAJava;
 
 import static org.junit.Assert.assertEquals;
-
 import java.util.ArrayList;
-
 import org.junit.Test;
 
 public class DAGLCATest {
@@ -48,5 +46,4 @@ public class DAGLCATest {
         assertEquals(6, DAGLCA.getLCA(DAG8, DAG9));
         assertEquals(0, DAGLCA.getLCA(DAG1, DAG5));
     }
-    
 }
